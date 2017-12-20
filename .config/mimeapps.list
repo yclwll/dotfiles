@@ -1,0 +1,14 @@
+[Added Associations]
+application/xml=lxterminal.desktop;
+text/plain=notepadqq.desktop;
+application/x-tar=xarchiver.desktop;
+application/x-shellscript=notepadqq.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;
+
+[Default Applications]
+text/html=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop

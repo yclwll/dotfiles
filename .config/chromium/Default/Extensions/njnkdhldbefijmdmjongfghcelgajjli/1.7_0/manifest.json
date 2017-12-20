@@ -1,0 +1,30 @@
+{
+   "author": "HKing",
+   "background": {
+      "scripts": [ "res/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "res/pic/icon_128.png",
+      "name": "Tumblr Video Downloader"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "res/css/style.css" ],
+      "js": [ "res/js/jquery.min.js", "res/js/main.js" ],
+      "matches": [ "*://*.tumblr.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "A Chrome Extension for easily download video from Tumblr website.",
+   "icons": {
+      "128": "res/pic/icon_128.png",
+      "16": "res/pic/icon_16.png",
+      "48": "res/pic/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkt3w0OcHClZuxeznsTF0jmWco/0Z2klkLHrNAlUXYLMcdEBYY/fs0nEjW0h+3wZb4PGLv1yCUe52H0RCW4kP4zsg4Uz4mNNjFOIo2Zse0eSKDmK9URHRBdqQ/Hr/C1965RUu3IOe3XCYWS0XtbIFJTne+N0xk+5mbPjiQcbtK/71N5yiOmfq5cu9sFdLqKeCTZ7cVvzrq2WRhsoGiXUoYLxdo/ylT8KHMONc/dgdzpRWD4XiKVdYmoL/K8Mu9Wmabe9f/ZcWbZRPMg+y1gMNb4sbH7sLg4L8guZr04Q48cqDQ4K/gYAEiJh7DYLlww5UeV1PQ312BmTHklclZmQeIQIDAQAB",
+   "manifest_version": 2,
+   "name": "Tumblr Video Downloader",
+   "permissions": [ "contextMenus", "*://*.tumblr.com/*", "downloads" ],
+   "short_name": "A Chrome Extension for download Tumblr video.",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7"
+}

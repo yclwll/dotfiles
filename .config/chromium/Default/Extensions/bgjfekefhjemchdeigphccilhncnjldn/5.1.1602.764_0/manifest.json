@@ -1,0 +1,46 @@
+{
+   "author": "zimo",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon.png",
+         "38": "icon.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "smartUp"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/event.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_ext_des__",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsaJVKyuvG1GFEvxJ5SGdSO8zjo9ZOc7KoxtptlpQa57/9tVyxDp96d+OxYFYa4Ql4kr7YQ/nQl0oHeTP8hUMvrSvzyIi91Y4LHjGZYI0/284vAleKfpooPdpVwJYYS6rAi4bvbEVyHXA87a+xt/KsZ8waAfI2qYxehbL+bu0iPNERoFsXKtSpmpEVxyEsTuQHqH8+uEs5ytCPPXdWT90h/yGGVhHP8RCo1n11GaoOVRQREcr80/zdZHNcjdXxFJeik8Re2fUnHiQYsCtlByzoJe243v5ygtTTcK21Secu7ado4eYxIo/PbMXBIElN/apmkQaCnWxu0/ea36rt5EgnQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22",
+   "name": "__MSG_ext_name__",
+   "optional_permissions": [ "downloads", "downloads.shelf", "clipboardRead", "clipboardWrite", "bookmarks", "history", "management", "sessions", "pageCapture", "background" ],
+   "options_page": "html/options.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "html/options.html"
+   },
+   "permissions": [ "\u003Call_urls>", "notifications", "storage", "tts", "contextMenus", "tabs" ],
+   "short_name": "smartUp",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.1.1602.764",
+   "web_accessible_resources": [ "image/direct.png", "icon.png", "image/direct.png", "image/loading.gif", "image/rss.png", "image/enable.png", "image/disable.png", "image/menu.svg", "image/options.png", "image/qmark.png", "image/hat.png" ]
+}

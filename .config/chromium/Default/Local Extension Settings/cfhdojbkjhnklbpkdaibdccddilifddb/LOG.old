@@ -1,0 +1,20 @@
+2017/12/20-21:58:50.053 4533 Reusing MANIFEST /home/lichking/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2017/12/20-21:58:50.053 4533 Recovering log #204
+2017/12/20-21:58:50.053 4533 Reusing old log /home/lichking/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000204.log 
+2017/12/20-21:59:50.734 5843 Level-0 table #208: started
+2017/12/20-21:59:50.764 5843 Level-0 table #208: 3291855 bytes OK
+2017/12/20-21:59:50.766 5843 Delete type=0 #204
+2017/12/20-21:59:50.767 5843 Compacting 4@0 + 2@1 files
+2017/12/20-21:59:50.811 5843 Generated table #209@0: 1 keys, 3291490 bytes
+2017/12/20-21:59:50.814 5843 Generated table #210@0: 2 keys, 338 bytes
+2017/12/20-21:59:50.814 5843 Compacted 4@0 + 2@1 files => 3291828 bytes
+2017/12/20-21:59:50.816 5843 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/12/20-21:59:50.816 5843 Delete type=2 #197
+2017/12/20-21:59:50.816 5843 Delete type=2 #205
+2017/12/20-21:59:50.817 5843 Delete type=2 #208
+2017/12/20-21:59:50.817 5843 Delete type=2 #200
+2017/12/20-21:59:50.818 5843 Delete type=2 #203
+2017/12/20-21:59:50.818 5843 Delete type=2 #198
+2017/12/20-22:00:55.895 5843 Level-0 table #212: started
+2017/12/20-22:00:55.935 5843 Level-0 table #212: 3291730 bytes OK
+2017/12/20-22:00:55.937 5843 Delete type=0 #207
