@@ -40,8 +40,8 @@ font-1 = FontAwesome:size=13;2
 
 # modules-left = hostname
 modules-left = i3
-modules-center = xwindow music
-modules-right = imgur  volume pkg  date keyboard power_menu
+modules-center = xwindow 
+modules-right =  volume pkg  date keyboard 
 
 # tray-padding = 0
 

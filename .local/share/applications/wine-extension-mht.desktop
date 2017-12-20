@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Internet Explorer
-MimeType=application/x-mimearchive;
-Exec=env WINEPREFIX="/home/lichking/.deepinwine/qqintl" wine start /ProgIDOpen mhtmlfile %f
-NoDisplay=true
-StartupNotify=true
-Icon=8042_IEXPLORE.0

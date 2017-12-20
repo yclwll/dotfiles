@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=A Wine application
-MimeType=application/x-wine-extension-eip;
-Exec=env WINEPREFIX="/home/lichking/.deepinwine/qqintl" wine start /ProgIDOpen EMOTION.Package %f
-NoDisplay=true
-StartupNotify=true
