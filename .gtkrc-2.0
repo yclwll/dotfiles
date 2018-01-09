@@ -3,7 +3,7 @@
 
 include "/home/lichking/.gtkrc-2.0.mine"
 gtk-theme-name="Arc"
-gtk-icon-theme-name="Papirus"
+gtk-icon-theme-name="HALO"
 gtk-font-name="Source Han Sans CN 10"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0

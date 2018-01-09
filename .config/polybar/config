@@ -20,7 +20,7 @@ color7 = ${xrdb:color7}
 [bar/top]
 
 width = 98%
-height = 36
+height = 32
 radius = 4.0
 
 background = ${colors.background}
@@ -35,15 +35,14 @@ padding-right = 3
 module-margin-left = 2
 module-margin-right = 4
 
-font-0 = PragmataPro Bold Nerd Font:size=10;1
-font-1 = FontAwesome:size=13;2
+font-0 = "Roboto:size=10;2"
+font-1 = "Font Awesome:size=12;1"
 
 # modules-left = hostname
 modules-left = i3
 modules-center = xwindow 
-modules-right =  volume pkg  date keyboard 
+modules-right = pkg  date pavolume keyboard
 
-# tray-padding = 0
 
 
 # Module for window title
@@ -51,24 +50,13 @@ modules-right =  volume pkg  date keyboard
 type = internal/xwindow
 label = %title:0:40:...%
 
+
+
 # Module for keyboard
 [module/keyboard]
 type = internal/xkeyboard
-
-; List of indicators to ignore
 blacklist-0 = num lock
 blacklist-1 = scroll lock
-
-
-# Module for hostname
-# [module/hostname]
-# type = custom/script
-# interval = 256
-# format = "<label> "
-# format-prefix = " "
-# format-prefix-foreground = ${colors.color3}
-# exec = echo "$(uname -n)"
-
 
 
 # Module for i3 workspaces
@@ -79,13 +67,13 @@ ws-icon-[0-9]+ = label;icon
 
 ws-icon-0 = 1;1:
 ws-icon-1 = 2;2:
-ws-icon-2 = 3;3:
-ws-icon-3 = 4;4:
+ws-icon-2 = 3;3:
+ws-icon-3 = 4;4:
 ws-icon-4 = 5;5:
-ws-icon-5 = 6;6:
-ws-icon-6 = 7;7:
-ws-icon-7 = 8;8:
-ws-icon-default = 
+#ws-icon-5 = 6;6:
+#ws-icon-6 = 7;7:
+#ws-icon-7 = 8;8:
+#ws-icon-default = 
 
 format = <label-state> <label-mode>
 index-sort = true
@@ -150,29 +138,23 @@ format-disconnected =
 [module/date]
 type = internal/date
 interval = 1
-format-prefix = "  " 
+#format-prefix = "  " 
 format-prefix-foreground = ${colors.color4}
-date = %b %d, %H:%M:%S
-label = %date%
+date = %b %d  %H:%M:%S
+#label = %date%
 
 
 # Module for volume 
-#[module/volume]
-#type = internal/volume
-#format-volume = <label-volume>
-#format-volume-prefix = "  "
-#format-volume-prefix-foreground = ${colors.color4}
-#label-volume = %percentage% %
-#format-muted-prefix = "  "
-#format-muted-prefix-foreground = ${colors.color4}
-#label-muted = "Muted"
-
-
-[module/volume]
-format-volume = <label-volume>
-label-muted =  %percentage%%
-label-volume =  %percentage%%
-type = internal/volume
+[module/pavolume]
+type = custom/script
+interval = 2
+label = %output%
+exec = ~/.config/polybar/pavolume.sh
+exec-if = pacmd list-sinks | grep -q available
+click-right = exec pavucontrol
+click-left = ~/.config/polybar/pavolume.sh --togmute
+scroll-up = ~/.config/polybar/pavolume.sh --up
+scroll-down = ~/.config/polybar/pavolume.sh --down
 
 
 # Module for battery
@@ -243,7 +225,7 @@ screenchange-reload = true
 
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
 ; vim:ft=dosini

@@ -1,0 +1,9 @@
+2017/12/30-20:34:15.122 10529 Reusing MANIFEST /home/lichking/.config/chromium/Default/IndexedDB/https_cloudsupport.digitalocean.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/12/30-20:34:15.609 10529 Current memtable full; waiting...
+2017/12/30-20:34:15.609 11349 Level-0 table #5: started
+2017/12/30-20:34:15.614 11349 Level-0 table #5: 430864 bytes OK
+2017/12/30-20:34:15.616 11349 Delete type=0 #3
+2017/12/30-20:34:15.616 11349 Level-0 table #7: started
+2017/12/30-20:34:15.616 11349 Level-0 table #7: 0 bytes OK
+2017/12/30-20:34:15.618 11349 Delete type=0 #4
+2017/12/30-20:34:15.618 11349 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

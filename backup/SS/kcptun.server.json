@@ -1,0 +1,20 @@
+{
+  "listen": ":10159",
+  "target": "VPS_IP:18640",
+  "key": "xxxxx",
+  "crypt": "salsa20",
+  "mode": "fast2",
+  "mtu": 1350,
+  "sndwnd": 2048,
+  "rcvwnd": 2048,
+  "datashard": 10,
+  "parityshard": 3,
+  "dscp": 0,
+  "nocomp": false,
+  "quiet": false,
+  "pprof": false,
+  "acknodelay": false,
+  "sockbuf": 4194304,
+  "keepalive": 10
+}
+

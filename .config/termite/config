@@ -1,7 +1,7 @@
 [options]
 browser = chromium
 clickable_url = true
-font = monospace 11
+font = xos4 Terminus Regular 10
 
 [colors]
 # http://terminal.sexy/#Jh858fHxGx0e2Q55mN4A_V13A8vKRztr_s-HzMzGUFNU_iB7tuNU_qGCLfzebnGc_vGE-Pjy

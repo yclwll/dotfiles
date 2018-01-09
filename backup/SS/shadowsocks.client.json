@@ -1,0 +1,12 @@
+{
+    "server":"xxx.xxx.xxx.xxx",
+    "server_port":18640,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"xxxxxxx",
+    "timeout":300,
+    "method":"chacha20",
+    "fast_open": true,
+    "workers":1
+}
+

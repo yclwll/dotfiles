@@ -1,0 +1,13 @@
+game:
+  arch: win64
+  args: battlenet://WoW/
+  exe: drive_c/Program Files (x86)/Battle.net/Battle.net Launcher.exe
+  prefix: /home/lichking/Games/world-of-warcraft
+system:
+  env:
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/lichking/Games/world-of-warcraft
+    __GL_THREADED_OPTIMIZATIONS: '1'
+    mesa_glthread: 'true'
+wine:
+  version: staging-2.18-x86_64

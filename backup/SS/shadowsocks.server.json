@@ -1,0 +1,17 @@
+{
+"server": "VPS_IP",
+"_comment": {
+	"18640": "me",
+	"14690": "lo"
+	 },
+"port_password": {
+	"18640": "xxxx",
+	"14690": "xxxx"
+	},
+"local_address": "127.0.0.1",
+"local_port": 1080,
+"timeout": 300,
+"method": "chacha20",
+"fast_open": true
+}
+

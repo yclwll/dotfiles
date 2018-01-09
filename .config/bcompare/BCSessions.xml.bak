@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder>
+		<Items>
+			<TTextCompareSession>
+				<Rules>
+					<CaseSig Value="True"/>
+					<ElementSigs>
+						<Item>
+							<ElementStr Value="&#2;Comment"/>
+							<ValueBool Value="True"/>
+						</Item>
+						<Item>
+							<ElementStr Value="&#2;LineNum"/>
+							<ValueBool Value="True"/>
+						</Item>
+					</ElementSigs>
+					<EmbeddedWSSig Value="True"/>
+					<LeadWSSig Value="True"/>
+					<TrailWSSig Value="True"/>
+				</Rules>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

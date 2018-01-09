@@ -1,0 +1,310 @@
+smartup.su_apps,
+smartup.su_apps div,
+smartup.su_apps img,
+smartup.su_apps a,
+smartup.su_apps ul,
+smartup.su_apps li{
+	all: initial;
+	font-family: inherit;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	transition:all .2s ease-in-out;
+}
+smartup.su_apps div{
+	display: block;
+}
+smartup.su_apps ul,
+smartup.su_apps li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	list-style-type: none;
+}
+smartup.su_apps li{
+	/*display: inline-grid;*/
+/*	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;*/
+}
+smartup.su_apps a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+
+
+smartup.su_apps input[type=text]{
+	border: 1px solid #d0d9ff;
+	height: 26px;
+	border-radius: 3px;
+	/*min-width: 160px;*/
+	padding: 0 10px;
+	margin: 3px 10px;
+}
+smartup.su_apps input[type=button],
+smartup.su_apps button{
+	min-width: 100px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 1em;	
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	transition:background .2s ease-in-out;
+	color: #5677fc;
+	padding: 0 8px;
+	margin: 0 5px;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0);
+	background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+smartup.su_apps input[type=button]:hover,
+smartup.su_apps button:hover{
+	color: #fff;
+	background: #5677fc;
+}
+smartup.su_apps input[type=button]:active,
+smartup.su_apps button:active{
+	position: relative;
+	top: 1px;
+	background: rgba(86, 119, 252, 0.4); 
+}
+smartup.su_apps select{
+	border-radius: 3px;
+	border: 1px solid #d0d9ff;
+	height: 26px;
+	padding: 0 10px;
+	min-width: 80px;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 14px;
+	margin: 3px 10px;
+}
+smartup.su_apps select optgroup{
+	color: #fff;
+	background: #5677fc;
+	font-weight: bold;
+}
+smartup.su_apps optgroup>option{
+	color: #000;
+}
+smartup.su_apps .su_box_submit{
+	text-align: right;
+	padding: 16px;
+}
+smartup.su_apps .su_box_des{
+	display: none;
+	max-width: 400px;
+	font-size: 12px;
+	color: #777;
+}
+smartup.su_apps .su_box_des ul{
+	margin: 5px 0;
+	padding: 0 20px;
+}
+smartup.su_apps .su_box_desbox{
+	margin: 7px 0;
+}
+smartup.su_apps .su_box_destext{
+	width: 238px;
+	margin-left:20px;
+	margin-top: 5px;
+}
+
+
+
+smartup.su_apps{
+	min-width: 200px;
+	/*min-height: 200px;*/
+	background-color: red;
+	position: fixed;
+    left: 0;
+    top: 0;
+	box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+	background-color: #d0d9ff;
+	z-index: 100000;
+	border: 1px solid #5677fc;
+	border-radius: 2px;
+	opacity: 0;
+}
+
+smartup.su_apps .su_box_head{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 120px;
+	width: 100%;
+	background-color: #5677fc;
+	text-align: center;
+}
+smartup.su_apps .su_box_title{
+	display: inline-block;
+	padding-top: 0;
+	font-size: 18px;
+	-webkit-user-select: none;
+	user-select: none;
+	margin-top: 6px;
+	color: #fff;
+	font-weight: bold;
+}
+smartup.su_apps .su_box_btn_close,
+smartup.su_apps #su_box_btn_close{
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 1px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 100%;
+	cursor: pointer;
+	text-align: center;
+	font-family: arial,sans-serif;
+	transition:all .4s ease-in-out;
+	-webkit-user-select: none;
+	user-select: none;
+}
+smartup.su_apps .su_box_btn_close:hover{
+	background: red;
+	border: 1px solid transparent;
+	color: #fff;
+}
+smartup.su_apps .su_box_btn_close:active{
+	background: blue;
+	top: 6px;
+	right: 4px;
+}
+
+smartup.su_apps .su_box_main{
+	position: relative;
+	left: 0;
+	top: 32px;
+	margin: 0 8px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	min-width: 100px;
+	min-height: 100px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+	overflow: auto;
+	/*padding: 10px 10px 5px 10px;*/
+	border-radius: 2px;
+	overflow-x:hidden;
+}
+smartup.su_apps .su_box_content{
+	overflow-y:auto;
+	overflow-x:hidden;
+	padding-bottom: 10px;
+	padding: 10px;
+	box-sizing: content-box;
+}
+
+smartup.su_apps .su_box_opt{
+	text-align: left;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	text-align: left;
+	z-index: 0;
+	display: inline-block;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	opacity: 0;
+	z-index: -1;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 2px 30px rgb(86, 119, 252);
+	transition:all .4s ease-in-out;
+}
+smartup.su_apps .su_box_opt select{
+	/*min-width:160px; */
+	width: 160px;
+}
+smartup.su_apps .su_box_opt input[type=text]{
+	margin: 3px 10px;
+}
+smartup.su_apps .su_box_opt input[type=range]{
+	/*width: 140px; */
+	height: 1px; 
+	background: #5677fc;/*rgba(75, 75, 75, 0.8); */
+	border: 1px solid transparent; 
+	border-radius: 5px;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-appearance: none; }
+smartup.su_apps .su_box_opt input[type=range]:focus{ outline:none }
+smartup.su_apps .su_box_opt input[type=range]::-webkit-slider-thumb{ 
+/*	width: 15px; 
+	height: 15px;
+	box-shadow: 1px 1px 1px #000;*/ 
+	background: #e7e9fd; 
+	border: 1px solid #d0d9ff; 
+	border-radius:100%;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-appearance: none; 
+
+	width: 34px;
+	height: 13px;
+	border-radius: 6px;
+	background: #5677fc;
+	box-shadow: none;
+}
+smartup.su_apps .su_box_opt input[type=range]{
+	margin: 10px 10px;
+	width: 160px;
+}
+smartup.su_apps .su_box_opt .su_box_opt_rangebox{
+	margin: 0 3px;
+	border-bottom: 1px solid #d0d9ff;
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	font-size: 13px;
+	color: #000;
+}
+smartup.su_apps .su_box_opt label{
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+smartup.su_apps .su_box_opt_labelname{
+	width: 140px;
+}
+smartup.su_apps .su_box_opt_labeldes{
+	width: 90%;
+}
+smartup.su_apps .su_box_opt_radio{
+	margin-right: 5px;
+}
+smartup.su_apps .su_box_opt_btnbox{
+	padding:5px 0px;
+	text-align: center;
+}
+smartup.su_apps .su_box_opt_btnbox input[type=button]{
+	margin: 0 10px;
+}
+
+smartup.su_apps .su_box_menu{
+	width: 24px;
+	position: absolute;
+	top: 24px;
+	left: -32px;
+	text-align: center;
+	opacity: .9;
+}
+smartup.su_apps .su_box_menu img{
+	border-radius: 100%;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ccf;
+	background: #fff;
+	cursor: pointer;
+	padding: 2px;
+}

@@ -1,0 +1,26 @@
+2018/01/09-20:36:24.823 14172 Reusing MANIFEST /home/lichking/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/01/09-20:36:24.824 14172 Recovering log #915
+2018/01/09-20:36:24.824 14172 Reusing old log /home/lichking/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000915.log 
+2018/01/09-20:37:25.432 15256 Level-0 table #919: started
+2018/01/09-20:37:25.463 15256 Level-0 table #919: 3297395 bytes OK
+2018/01/09-20:37:25.465 15256 Delete type=0 #915
+2018/01/09-20:37:25.466 15256 Compacting 4@0 + 2@1 files
+2018/01/09-20:37:25.512 15256 Generated table #920@0: 1 keys, 3295788 bytes
+2018/01/09-20:37:25.515 15256 Generated table #921@0: 2 keys, 1202 bytes
+2018/01/09-20:37:25.515 15256 Compacted 4@0 + 2@1 files => 3296990 bytes
+2018/01/09-20:37:25.517 15256 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/01/09-20:37:25.517 15256 Delete type=2 #910
+2018/01/09-20:37:25.517 15256 Delete type=2 #909
+2018/01/09-20:37:25.517 15256 Delete type=2 #914
+2018/01/09-20:37:25.518 15256 Delete type=2 #916
+2018/01/09-20:37:25.518 15256 Delete type=2 #912
+2018/01/09-20:37:25.519 15256 Delete type=2 #919
+2018/01/09-20:39:25.672 15256 Level-0 table #923: started
+2018/01/09-20:39:25.708 15256 Level-0 table #923: 3296890 bytes OK
+2018/01/09-20:39:25.712 15256 Delete type=0 #918
+2018/01/09-21:37:25.516 15256 Level-0 table #925: started
+2018/01/09-21:37:25.548 15256 Level-0 table #925: 3298531 bytes OK
+2018/01/09-21:37:25.550 15256 Delete type=0 #922
+2018/01/09-21:37:40.301 15256 Level-0 table #927: started
+2018/01/09-21:37:40.336 15256 Level-0 table #927: 3296900 bytes OK
+2018/01/09-21:37:40.340 15256 Delete type=0 #924
