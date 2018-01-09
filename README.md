@@ -42,7 +42,7 @@
 	
 	*生产工具
 	rxvt-unicode(urxvt)         -> 终端管理器
-	tmux			    -> 终端复用	
+	tmux                        -> 终端复用
 	visual-studio-code          -> IDE编辑器(AUR)
 	vim                         -> 编辑器
 
@@ -57,7 +57,7 @@
 	evince                      -> PDF查看软件
 	smplayer                    -> 视频播放器(终端)
 	shadowsocks                 -> sock5代理
-	kcptun			    -> sock5加速
+	kcptun                      -> sock5加速
 	fcitx-im/fcitx-configtool   -> 输入法
 
 	yaourt                      -> 包管理
