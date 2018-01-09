@@ -1,4 +1,0 @@
-system: {}
-wine:
-  custom_wine_path: /home/lichking/Downloads/wine-wow-2.0-x86_64.tar.gz
-  version: custom
