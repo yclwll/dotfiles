@@ -51,7 +51,6 @@
 	thunar                      -> 文件管理(GUI)
 	ranger                      -> 文件管理(SLI)
 	gvfs-smb                    -> Thunar增加smaba服务
-	ranger                      -> 文件管理(终端)
 	chromium                    -> 浏览器
 	pepper-flash                -> Chromium的Flash支持(AUR)
 	evince                      -> PDF查看软件
