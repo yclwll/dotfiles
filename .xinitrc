@@ -26,5 +26,6 @@ restore_alsa &
 export TERMINAL=termite
 export VISUAL="vim" 
 
-exec i3 
+numlockx &
 
+exec i3 
